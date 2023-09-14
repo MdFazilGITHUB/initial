@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  margin-top: 10px;
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  /* padding: 0 20px;  */
+  display: flex;
+  flex-wrap: wrap;
+  background-color: azure;
+  text-align: center;
+
+}
+
+img {
+  border: solid 1px white;
+  border-radius: 10%;
+}
+
+img.webpage-icon {
+  height: 200px;
+  width: 200px;
+  max-height: 250px;
+  border: 5px solid black;
+  border-radius: 30%;
+}
+
+div.webpage-icon-container {
+  align-items: start;
+  display: flex;
+}
+
+header {
+  display: flex;
+  text-align: justify;
+  max-width: 500px;
+
+}
+
+.header-text {
+  width: 300px;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  justify-items: center;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  margin-left: 40%;
+}
+
+button.dropbtn {
+  color: rgb(0, 0, 0);
+  height: 50px;
+  width: 100px;
+  border-radius: 4px;
+  background-color: rgb(187, 226, 171);
+  margin-top: 32px;
+  font-weight: bold;
+}
+
+.dropbtn:hover {
+  color: black;
+  background-color: #1e94dd;
+}
+
+div.home-page-container {
+  margin: 10px 50px 50px 50px;
+  flex-wrap: nowrap;
+}
+
+h1 {
+  flex-wrap: wrap;
+  max-width: 700px;
+  text-align: center;
+  border-bottom: solid black 5px;
+}
+
+.today-deals h1 {
+  height: 100px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center
+}
+
+.deal-subheading>p {
+  max-width: 700px;
+  text-align: center;
+  border-bottom: double black 5px;
+}
+
+.product-details-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.pdt-01-container {
+  flex: 1;
+  align-items: center;
+  border-radius: 10%;
+  border: 6px solid black;
+  background-color: #a1cce7;
+}
+
+.pdt-02-container {
+  flex: 1;
+  align-items: center;
+  border-radius: 10%;
+  border: 6px solid black;
+  background-color: #a1cce7;
+}
+
+.pdt-03-container {
+  align-items: center;
+  border-radius: 10%;
+  border: 6px solid black;
+  background-color: #a1cce7;
+}
+
+.pdt-04-container {
+  align-items: center;
+  border-radius: 10%;
+  border: 6px solid black;
+  background-color: #a1cce7;
+}
+
+.pdt-05-container {
+  align-items: center;
+  border-radius: 10%;
+  border: 6px solid black;
+  background-color: #a1cce7;
+}
+
+.pdt-06-container {
+  align-items: center;
+  border-radius: 10%;
+  border: 6px solid black;
+  background-color: #a1cce7;
+}
+
+.pdt-01-container>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 350px;
+  max-width: 400px;
+  background-color: #a1cce7;
+
+}
+
+.pdt-02-container>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 350px;
+  max-width: 350px;
+  width: 270px;
+  height: 180px;
+}
+
+.pdt-03-container>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 350px;
+  max-width: 300px;
+  width: 276px;
+  height: 276px;
+}
+
+.pdt-04-container>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 350px;
+  max-width: 300px;
+}
+
+.pdt-05-container>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 350px;
+  max-width: 300px;
+
+}
+
+.pdt-06-container>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 350px;
+  max-width: 300px;
+}
+
+.pdt-01-container>h3 {
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.pdt-02-container>h3 {
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.pdt-03-container>h3 {
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.pdt-04-container>h3 {
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.pdt-05-container>h3 {
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.pdt-06-container>h3 {
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.title {
+  text-align: center;
+}
+
+button.moredealsbtn {
+  color: rgb(0, 0, 0);
+  height: 50px;
+  width: 200px;
+  border-radius: 4px;
+  background-color: rgb(171, 255, 183);
+  margin-top: 32px;
+  font-weight: bold;
+
+}
+
+button.buybtn {
+  color: rgb(0, 0, 0);
+  height: 50px;
+  width: 100px;
+  border-radius: 4px;
+  background-color: rgb(187, 226, 171);
+  /* margin-top: 32px; */
+  font-weight: bold;
+}
+
+.moredealsbtn:hover {
+  color: black;
+  background-color: #1e94dd;
+}
+
+.buybtn:hover {
+  color: black;
+  background-color: #fffb00;
+}
+
+button.morebtn {
+  color: rgb(0, 0, 0);
+  height: 50px;
+  width: 100px;
+  border-radius: 4px;
+  background-color: rgb(187, 226, 171);
+
+  font-weight: bold;
+}
+
+.morebtn:hover {
+  color: black;
+  background-color: #ffffff;
+}
+
+.category-container {
+  display: grid;
+  grid-template-columns: 600fr 600fr 600fr;
+  grid-gap: 20px;
+}
+
+.category-home {
+  /* flex: 1; */
+  float: left;
+  width: auto;
+  height: auto;
+  border: 6px solid black;
+  background-color: #a1cce7;
+  border-radius: 10%;
+}
+
+.category-office {
+  float: left;
+  width: auto;
+  height: auto;
+  border: 6px solid black;
+  border-radius: 10%;
+  background-color: #a1cce7;
+}
+
+.category-gaming {
+  float: right;
+  width: auto;
+  height: auto;
+  border: 6px solid black;
+  border-radius: 10%;
+  background-color: #a1cce7;
+}
+
+footer {
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 273px;
+}
+
+.contact-container {
+  position: absolute;
+  margin-left: -2px;
+  left: 0;
+  height: 273px;
+  /* width: 596px; */
+  background-color: #a1cce7;
+  border-top-right-radius: 40%;
+
+  border: solid black 2px;
+
+}
+
+.contact-container>h2,
+.contact-container>a {
+  padding-left: 116px;
+  padding-top: 60px;
+  color: white;
+  margin-right: 282px;
+}
+
+
+.move-right {
+  padding-top: 8%;
+  text-align: right;
+  padding-bottom: 64px;
+  color: black;
+  margin-left: 700px;
+}
+
+footer {
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 273px;
+}
+
+
+@media only screen and(max-width: 100px) {
+
+  nav {
+    width: 100%;
+  }
+
+  .webpage-icon img {
+    width: 70%
+  }
+
+  ;
+
+  .contact-container>h2,
+  .contact-container>a {
+    margin-right: 20px;
+  }
+
+}
